@@ -36,7 +36,11 @@
     --"rodrigore/coc-tailwind-intellisense",
    -- opts = {}
   --},
-  
+  {
+    "s0/remark-tree-sitter",
+    opts = {}
+  },
+
 {
     "jiaoshijie/undotree",
     dependencies = {"nvim-lua/plenary.nvim"},
