@@ -41,7 +41,7 @@ return {
     { import = "astrocommunity.bars-and-lines.lualine-nvim" },
     {import = "astrocommunity.scrolling.nvim-scrollbar"}, 
     { import = "astrocommunity.editing-support.auto-save-nvim" },
-    { import = "astrocommunity.editing-support.treej" },
+    --{ import = "astrocommunity.editing-support.treej" },
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
     --{ import = "astrocommunity.bars-and-lines.dropbar-nvim" }

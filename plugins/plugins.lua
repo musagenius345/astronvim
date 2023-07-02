@@ -11,7 +11,9 @@
   },
   {
     "barrett-ruth/import-cost.nvim",
-    opts = {}
+    opts = {
+       event = "VeryLazy"
+     }
   },
   {
     "dcampos/nvim-snippy",
@@ -39,7 +41,18 @@
   {
     "s0/remark-tree-sitter",
     opts = {}
+
   },
+  {
+     "ChiliConSql/neovim-stylus",
+     opts = {
+      priority = 1000
+     }
+   },
+   {
+     "yaegassy/coc-vitest",
+     opts = {}
+   },
 
 {
     "jiaoshijie/undotree",
