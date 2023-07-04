@@ -50,6 +50,12 @@
      }
    },
    {
+     "matze/vim-move",
+     opts = {
+      event = "BufEnter" 
+     }
+   },
+   {
      "yaegassy/coc-vitest",
      opts = {}
    },
