@@ -4,8 +4,6 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
      { import = "astrocommunity.code-runner.overseer-nvim", enabled = false},
     { import = "astrocommunity.code-runner.sniprun", enabled = false},
     { import = "astrocommunity.utility.noice-nvim" },
@@ -14,7 +12,7 @@ return {
     { import = "astrocommunity.editing-support.cutlass-nvim", enabled = false},
     { import = "astrocommunity.editing-support.true-zen-nvim"},
     { import = "astrocommunity.editing-support.neogen"},
-    { import = "astrocommunity.file-explorer.oil-nvim"},
+    -- { import = "astrocommunity.file-explorer.oil-nvim"},
     { import = "astrocommunity.project.project-nvim"},
     { import = "astrocommunity.pack.svelte"},
     { import = "astrocommunity.pack.astro"},
@@ -27,22 +25,22 @@ return {
     { import = "astrocommunity.colorscheme.vscode-nvim"},
     { import = "astrocommunity.colorscheme.github-nvim-theme"},
     { import = "astrocommunity.colorscheme.onedarkpro-nvim"},
-    { import = "astrocommunity.editing-support.nvim-ts-rainbow2"},
+    -- { import = "astrocommunity.editing-support.nvim-ts-rainbow2"},
     { import = "astrocommunity.editing-support.text-case-nvim"},
-    { import = "astrocommunity.editing-support.nvim-regexplainer"},
+    -- { import = "astrocommunity.editing-support.nvim-regexplainer"},
     { import = "astrocommunity.editing-support.zen-mode-nvim"},
     { import = "astrocommunity.motion.nvim-surround"},
     { import = "astrocommunity.motion.hop-nvim"},
     { import = "astrocommunity.motion.grapple-nvim"},
-    --{ import = "astrocommunity.motion.harpoon-nvim"},
+    -- { import = "astrocommunity.motion.harpoon-nvim"},
     { import = "astrocommunity.motion.leap-nvim"},
     { import = "astrocommunity.motion.vim-matchup"},
     { import = "astrocommunity.utility.transparent-nvim"},
-    { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+    { import = "astrocommunity.bars-and-lines.lualine-nvim", priority=1000, event="Astro UserFile" },
     {import = "astrocommunity.scrolling.nvim-scrollbar"}, 
     { import = "astrocommunity.editing-support.auto-save-nvim" },
-    --{ import = "astrocommunity.editing-support.treej" },
+    -- { import = "astrocommunity.editing-support.treej" },
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
-    --{ import = "astrocommunity.bars-and-lines.dropbar-nvim" }
+    -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" }
 }

@@ -17,6 +17,26 @@ return {
     },
   },
 
+
+  ["null-ls"] = function()
+    local status_ok, null_ls = pcall(require, "null-ls")
+    if status_ok then
+      null_ls.setup {
+        debug = false,
+        sources = {
+          null_ls.builtins.formatting.prettier,
+        },
+        on_attach = function(client)
+          if client.resolved_capabilities.document_formatting then
+            vim.cmd "autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_sync()"
+          end
+        end,
+      }
+    end
+  end,
+
+
+
   -- Set colorscheme to use
   colorscheme = "onedark",
 

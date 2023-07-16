@@ -4,29 +4,12 @@
 {
     "folke/todo-comments.nvim",
     dependencies = {"nvim-lua/plenary.nvim"},
-    -- config = function()
-    --   require("todo-comments").setup{}
-    --   end,
-    opts = {} 
-  },
-  {
-    "barrett-ruth/import-cost.nvim",
-    opts = {
-       event = "VeryLazy"
-     }
+     event = 'VeryLazy',
+     opts = {} 
   },
   {
     "dcampos/nvim-snippy",
     opts = {}
-  },
-  {
-    "kdheepak/lazygit.nvim",
-    opts = {},
-    dependencies = {"nvim-lua/plenary.nvim"}
-  },
-  {
-    "williamboman/mason-lspconfig.nvim",
-    opts ={}
   },
   
 
@@ -34,32 +17,13 @@
     'nvim-tree/nvim-web-devicons',
     opts = {}
   },
-  --{
-    --"rodrigore/coc-tailwind-intellisense",
-   -- opts = {}
-  --},
+  
   {
-    "s0/remark-tree-sitter",
-    opts = {}
-
-  },
-  {
-     "ChiliConSql/neovim-stylus",
-     opts = {
-      priority = 1000
-     }
-   },
-   {
      "matze/vim-move",
      opts = {
       event = "BufEnter" 
      }
    },
-   {
-     "yaegassy/coc-vitest",
-     opts = {}
-   },
-
 {
     "jiaoshijie/undotree",
     dependencies = {"nvim-lua/plenary.nvim"},
@@ -88,20 +52,20 @@
   "mhartington/formatter.nvim",
   opts = {}
 },
-
-{
-  "heavenshell/vim-jsdoc",
-  opts = {}
-},
+--
+-- {
+--   "heavenshell/vim-jsdoc",
+--   opts = {}
+-- },
 {
   "wuelnerdotexe/vim-astro",
   opts = {}
 },
 
-{
-  "xiyaowong/transparent.nvim",
-  opts = {}
-},
+-- {
+--   "xiyaowong/transparent.nvim",
+--   opts = {}
+-- },
 
 {
   "zef/vim-cycle",
@@ -111,8 +75,7 @@
   "folke/edgy.nvim",
   event = "VeryLazy",
   opts = {}
-},
-
+}
 
 --Context Menu
 -- {
@@ -125,16 +88,6 @@
 --  "ojroques/vim-oscyank",
 --  opts ={}
 --},
-
-
---FIXIT {
---  "hrsh7th/cmp-path",
---  event = {VeryLazy},
---  opts = {}
---},
-
-
-
 
 
 }
