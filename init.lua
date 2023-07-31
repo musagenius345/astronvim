@@ -35,7 +35,9 @@ return {
     end
   end,
 
-
+-- To stop press enter prompt from appeareing
+  vim.opt.shortmess:append("F"),
+  cmdheight=1, 
 
   -- Set colorscheme to use
   colorscheme = "onedark",
