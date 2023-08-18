@@ -5,8 +5,8 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
      { import = "astrocommunity.code-runner.overseer-nvim", enabled = false},
-    { import = "astrocommunity.code-runner.sniprun", enabled = false},
-    { import = "astrocommunity.utility.noice-nvim" },
+    -- { import = "astrocommunity.code-runner.sniprun", enabled = true},
+    { import = "astrocommunity.utility.noice-nvim", presets = { inc_rename = true } },
     --motion
     { import = "astrocommunity.motion.nvim-surround"},
     { import = "astrocommunity.editing-support.cutlass-nvim", enabled = false},
@@ -18,14 +18,13 @@ return {
     { import = "astrocommunity.pack.astro"},
     { import = "astrocommunity.pack.html-css"},
     { import = "astrocommunity.pack.typescript"},
-    { import = "astrocommunity.pack.tailwindcss"},
+    { import = "astrocommunity.pack.tailwindcss", priority=1000},
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
     { import = "astrocommunity.colorscheme.nord-nvim"},
     { import = "astrocommunity.colorscheme.tokyonight-nvim"},
     { import = "astrocommunity.colorscheme.vscode-nvim"},
     { import = "astrocommunity.colorscheme.github-nvim-theme"},
     { import = "astrocommunity.colorscheme.onedarkpro-nvim"},
-    -- { import = "astrocommunity.editing-support.nvim-ts-rainbow2"},
     { import = "astrocommunity.editing-support.text-case-nvim"},
     -- { import = "astrocommunity.editing-support.nvim-regexplainer"},
     { import = "astrocommunity.editing-support.zen-mode-nvim"},

@@ -3,7 +3,7 @@
 --TODO:add more plugins
 {
     "folke/todo-comments.nvim",
-    dependencies = {"nvim-lua/plenary.nvim"},
+    -- dependencies = {"lua/plenary.nvim"},
      event = 'VeryLazy',
      opts = {} 
   },
@@ -26,7 +26,7 @@
    },
 {
     "jiaoshijie/undotree",
-    dependencies = {"nvim-lua/plenary.nvim"},
+    -- dependencies = {"nvim-lua/plenary.nvim"},
     -- config = function()
     --   require("todo-comments").setup{}
     --   end,
