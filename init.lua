@@ -18,6 +18,9 @@ return {
   },
 
 
+
+
+
   ["null-ls"] = function()
     local status_ok, null_ls = pcall(require, "null-ls")
     if status_ok then
@@ -40,7 +43,7 @@ return {
   cmdheight=1, 
 
   -- Set colorscheme to use
-  colorscheme = "onedark",
+  colorscheme = "tokyonight",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -89,6 +92,9 @@ return {
     },
   },
 
+
+
+
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
@@ -106,4 +112,9 @@ return {
     --   },
     -- }
   end,
+
+
 }
+
+
+
