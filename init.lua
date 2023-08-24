@@ -70,7 +70,7 @@ return {
       disabled = { -- disable formatting capabilities for the listed language servers
         -- "sumneko_lua",
       },
-      timeout_ms = 1000, -- default format timeout
+      timeout_ms = 3000, -- default format timeout
       -- filter = function(client) -- fully override the default formatting function
       --   return true
       -- end
@@ -100,17 +100,20 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- Set up custom filetypes
-    -- vim.filetype.add {
-    --   extension = {
-    --     foo = "fooscript",
-    --   },
+    vim.filetype.add {
+      extension = {
+        postcss = "css"
+
+      },
+
+    vim.cmd("autocmd FileType postcss set syntax=css")
     --   filename = {
     --     ["Foofile"] = "fooscript",
     --   },
     --   pattern = {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
-    -- }
+    }
   end,
 
 
