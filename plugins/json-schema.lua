@@ -1,8 +1,9 @@
 -- require("neoconf").setup()
---FIXIT bring an error 'neoconf should be setupbefore lspconfig'
+--FIX bring an error 'neoconf should be setupbefore lspconfig'
 return {
   "b0o/schemastore.nvim",
   event="VeryLazy",
+  -- opts={}
 --
 --   require("neoconf").setup({
 -- -- override any of the default settings here
