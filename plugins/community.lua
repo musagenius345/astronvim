@@ -42,4 +42,8 @@ return {
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
     -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" }
+    
+    { import = "astrocommunity.pack.lua"},
+
+    { import = "astrocommunity.pack.bash"}
 }
