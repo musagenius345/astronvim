@@ -17,10 +17,6 @@ return {
     },
   },
 
-
-
-
-
   ["null-ls"] = function()
     local status_ok, null_ls = pcall(require, "null-ls")
     if status_ok then
@@ -38,9 +34,9 @@ return {
     end
   end,
 
--- To stop press enter prompt from appeareing
-  vim.opt.shortmess:append("F"),
-  cmdheight=1, 
+  -- To stop press enter prompt from appeareing
+  vim.opt.shortmess:append "F",
+  cmdheight = 1,
 
   -- Set colorscheme to use
   colorscheme = "tokyonight",
@@ -61,7 +57,7 @@ return {
           -- "go",
           "html",
           "css",
-          "js"
+          "js",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
@@ -92,9 +88,6 @@ return {
     },
   },
 
-
-
-
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
@@ -102,22 +95,16 @@ return {
     -- Set up custom filetypes
     vim.filetype.add {
       extension = {
-        postcss = "css"
-
+        postcss = "css",
       },
 
-    vim.cmd("autocmd FileType postcss set syntax=css")
-    --   filename = {
-    --     ["Foofile"] = "fooscript",
-    --   },
-    --   pattern = {
-    --     ["~/%.config/foo/.*"] = "fooscript",
-    --   },
+      vim.cmd "autocmd FileType postcss set syntax=css",
+      --   filename = {
+      --     ["Foofile"] = "fooscript",
+      --   },
+      --   pattern = {
+      --     ["~/%.config/foo/.*"] = "fooscript",
+      --   },
     }
   end,
-
-
 }
-
-
-
