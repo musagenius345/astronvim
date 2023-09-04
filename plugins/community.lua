@@ -43,7 +43,7 @@ return {
     { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
     -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" }
     
-    { import = "astrocommunity.pack.lua"},
+    -- { import = "astrocommunity.pack.lua"},
 
-    { import = "astrocommunity.pack.bash"}
+    -- { import = "astrocommunity.pack.bash"}
 }
