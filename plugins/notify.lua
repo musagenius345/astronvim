@@ -4,7 +4,7 @@ return {
     require("plugins.configs.notify")(plugin, opts)
     local notify = require "notify"
     notify.setup({
-      timeout = 350,
+      timeout = 150,
       background_colour = "#181825"
     })
   end,

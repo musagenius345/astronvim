@@ -4,12 +4,12 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-     { import = "astrocommunity.code-runner.overseer-nvim", enabled = false},
+     -- { import = "astrocommunity.code-runner.overseer-nvim", enabled = false},
     -- { import = "astrocommunity.code-runner.sniprun", enabled = true},
     { import = "astrocommunity.utility.noice-nvim", presets = { inc_rename = true } },
     --motion
     { import = "astrocommunity.motion.nvim-surround"},
-    { import = "astrocommunity.editing-support.cutlass-nvim", enabled = false},
+    -- { import = "astrocommunity.editing-support.cutlass-nvim", enabled = false},
     { import = "astrocommunity.editing-support.true-zen-nvim"},
     { import = "astrocommunity.editing-support.neogen"},
     -- { import = "astrocommunity.file-explorer.oil-nvim"},
@@ -19,7 +19,7 @@ return {
     { import = "astrocommunity.pack.html-css"},
     { import = "astrocommunity.pack.typescript"},
     { import = "astrocommunity.pack.tailwindcss", priority=1000},
-    { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
+    -- { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
     { import = "astrocommunity.colorscheme.nord-nvim"},
     { import = "astrocommunity.colorscheme.tokyonight-nvim"},
     { import = "astrocommunity.colorscheme.vscode-nvim"},
@@ -34,7 +34,6 @@ return {
     -- { import = "astrocommunity.motion.harpoon-nvim"},
     { import = "astrocommunity.motion.leap-nvim"},
     { import = "astrocommunity.motion.vim-matchup"},
-    { import = "astrocommunity.utility.transparent-nvim"},
     { import = "astrocommunity.bars-and-lines.lualine-nvim", priority=1000, event="Astro UserFile" },
     {import = "astrocommunity.scrolling.nvim-scrollbar"}, 
     { import = "astrocommunity.editing-support.auto-save-nvim" },
