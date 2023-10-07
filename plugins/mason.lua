@@ -5,7 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
-      -- ensure_installed = { "svelte", "css", "html", "emmet", "typescript", "astro","rustywind" },
+      ensure_installed = { "svelte", "html", "tsserver"},
     },
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources

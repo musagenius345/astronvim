@@ -18,7 +18,7 @@ return {
     { import = "astrocommunity.pack.astro"},
     { import = "astrocommunity.pack.html-css"},
     { import = "astrocommunity.pack.typescript"},
-    { import = "astrocommunity.pack.tailwindcss", priority=1000},
+    -- { import = "astrocommunity.pack.tailwindcss", priority=1000},
     -- { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
     { import = "astrocommunity.colorscheme.nord-nvim"},
     { import = "astrocommunity.colorscheme.tokyonight-nvim"},
