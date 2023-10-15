@@ -1,93 +1,90 @@
- return {
+return {
 
---TODO:add more plugins
-{
-    "folke/todo-comments.nvim",
-    -- dependencies = {"lua/plenary.nvim"},
-     event = 'VeryLazy',
-     opts = {} 
-  },
-  {
-    "dcampos/nvim-snippy",
-    opts = {}
-  },
-  
+	--TODO:add more plugins
+	{
+		"folke/todo-comments.nvim",
+		-- dependencies = {"lua/plenary.nvim"},
+		event = "VeryLazy",
+		opts = {},
+	},
+	{
+		"dcampos/nvim-snippy",
+		opts = {},
+	},
 
-  {
-    'nvim-tree/nvim-web-devicons',
-    opts = {}
-  },
-  
-  {
-     "matze/vim-move",
-     opts = {
-      event = "BufEnter" 
-     }
-   },
-{
-    "jiaoshijie/undotree",
-    -- dependencies = {"nvim-lua/plenary.nvim"},
-    -- config = function()
-    --   require("todo-comments").setup{}
-    --   end,
-    opts = {} 
-  },
-  {
-    "declancm/cinnamon.nvim",
-    opts = {}
-  },
+	{
+		"nvim-tree/nvim-web-devicons",
+		opts = {},
+	},
 
-  {
-  "folke/zen-mode.nvim",
-  opts = {},
-  cmd = "ZenMode"
-},
+	{
+		"matze/vim-move",
+		opts = {
+			event = "BufEnter",
+		},
+	},
+	{
+		"jiaoshijie/undotree",
+		-- dependencies = {"nvim-lua/plenary.nvim"},
+		-- config = function()
+		--   require("todo-comments").setup{}
+		--   end,
+		opts = {},
+	},
+	{
+		"declancm/cinnamon.nvim",
+		opts = {},
+	},
 
-{
-  "ellisonleao/glow.nvim", 
-  config = true, 
-  cmd = "Glow"
-},
-{
-  "mhartington/formatter.nvim",
-  opts = {}
-},
---
--- {
---   "heavenshell/vim-jsdoc",
---   opts = {}
--- },
-{
-  "wuelnerdotexe/vim-astro",
-  opts = {}
-},
+	{
+		"folke/zen-mode.nvim",
+		opts = {},
+		cmd = "ZenMode",
+	},
 
--- {
---   "xiyaowong/transparent.nvim",
---   opts = {}
--- },
+	{
+		"ellisonleao/glow.nvim",
+		config = true,
+		cmd = "Glow",
+	},
+	{
+		"mhartington/formatter.nvim",
+		opts = {},
+	},
+	--
+	-- {
+	--   "heavenshell/vim-jsdoc",
+	--   opts = {}
+	-- },
+	{
+		"wuelnerdotexe/vim-astro",
+		opts = {},
+	},
 
-{
-  "zef/vim-cycle",
-  opts = {}
-},
-{
-  "folke/edgy.nvim",
-  event = "VeryLazy",
-  opts = {}
-}
+	-- {
+	--   "xiyaowong/transparent.nvim",
+	--   opts = {}
+	-- },
 
---Context Menu
--- {
---   "meznaric/conmenu",
---   opts = {}
--- },
+	{
+		"zef/vim-cycle",
+		opts = {},
+	},
+	{
+		"folke/edgy.nvim",
+		event = "VeryLazy",
+		opts = {},
+	},
 
---ClipBoard
---{
---  "ojroques/vim-oscyank",
---  opts ={}
---},
+	--Context Menu
+	-- {
+	--   "meznaric/conmenu",
+	--   opts = {}
+	-- },
 
-
+	--ClipBoard
+	--{
+	--  "ojroques/vim-oscyank",
+	--  opts ={}
+	--},
 }

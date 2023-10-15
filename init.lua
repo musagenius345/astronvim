@@ -42,8 +42,8 @@ return {
   colorscheme = "tokyonight",
 
   -- Remap keys for exiting modes
-  vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true, silent = true }),
-  vim.api.nvim_set_keymap('i', 'kj', '<Esc>', { noremap = true, silent = true }),
+  vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = true, silent = true }),
+  vim.api.nvim_set_keymap("i", "kj", "<Esc>", { noremap = true, silent = true }),
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -77,6 +77,9 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "tsserver",
+      "svelte",
+      "cssls",
     },
   },
 
